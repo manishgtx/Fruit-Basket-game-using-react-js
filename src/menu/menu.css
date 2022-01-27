@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+li{
+    list-style-type: none;
+}
+
+.closed-bar {
+    height: 75px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 15px 24px rgba(0, 0, 0, 0.65), inset 44.9321px -44.9321px 44.9321px rgba(194, 194, 194, 0.1), inset -44.9321px 44.9321px 44.9321px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(89.8643px);
+    border-radius: 14px 0px 0px 14px;
+    position: absolute;
+    top: 50%;
+    right:0;
+    transform: translateY(-50%);
+    
+   /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+.bag {
+    position: relative;
+    top: -55px;
+    left: 3px;
+    cursor: pointer;
+}
+
+.bag-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Viga', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+.bag-dot {
+    position: absolute;
+    top: 22px;
+    right: 13px;
+}
+/* re-useable classes */
+.dot {
+    font-family: 'Viga', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    padding: 1px 10.5px;
+    border-radius: 50%;
+    background: #F30002;
+}
+.text {
+    font-family: 'Viga', sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+.open-bar {
+    width: 312px;
+    height: 75px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 15px 24px rgba(0, 0, 0, 0.65), inset 44.9321px -44.9321px 44.9321px rgba(194, 194, 194, 0.1), inset -44.9321px 44.9321px 44.9321px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(89.8643px);
+    border-radius: 14px 0px 0px 14px;
+    position: absolute;
+    top: 50%;
+    right:0;
+    transform: translateY(-50%);
+}
+.phone {
+    position: absolute;
+    top: -25px;
+    left: 250px;
+}
+.phone-text {
+    position: absolute;
+    bottom: -30px;
+    left: -5px;
+}
+.phone-dot {
+    position: absolute;
+    top: 3px;
+    right: -15px;
+}
+
+.notepad {
+    position: absolute;
+    top: -30px;
+    right: 100px;
+}
+.notepad-text {
+    position: absolute;
+    bottom: -20px;
+    left: 11px;
+}
+.records {
+    position: absolute;
+    top: -30px;
+    left: 35px;
+}
+.records-text {
+    position: absolute;
+    bottom: -11px;
+    left: 12px;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 50%;
+    left: 10px;
+    transform: translateY(50%);
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}

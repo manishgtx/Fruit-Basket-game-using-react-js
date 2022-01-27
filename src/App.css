@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+.home {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cabin {
+  width: 1280px;
+  height: 720px;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./Images/cabin.jpg);
+  position: relative;
+  overflow: hidden;
+}
+.tray {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.market{
+  position: absolute;
+  top: 10px;
+  right: 12px;
+}
+.godown {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: black;
+  font-size: 55px;
+  font-family: 'Staatliches', cursive;
+  color: white;
+  padding: 10px 42px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-weight: 400;
+  z-index:2
+}
+.timer {
+  font-size: 55px;
+  font-family: 'Staatliches', cursive;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  font-weight: 400;
+  z-index: 3;
+}
+.timer span{
+  font-size: 35px;
+}
+.brinjal-crate {
+  position: absolute;
+  left: 98px;
+  bottom: 273px;
+  z-index: 1;
+}
+.carrot-crate {
+  position: absolute;
+  left: 240px;
+  bottom: 218px;
+  z-index: 1;
+}
+.pea-crate {
+  position: absolute;
+  left: 415px;
+  bottom: 255px;
+  z-index:1
+}
+.tomato-crate {
+  position: absolute;
+  left: 550px;
+  bottom: 210px;
+  z-index:1
+}
+.lemon-crate {
+  position: absolute;
+  left: 730px;
+  bottom: 180px;
+  z-index:1
+}
+
+.crates-inputs {
+  position: absolute;
+  bottom: 65px;
+  left: 240px;
+  width: 850px;
+  display: flex;
+  gap: 77px;
+}
+.crate-input {
+  border: none;
+  background: rgba(0, 0, 0, 0.5);
+  width: 64.16px;
+  height: 41.94px;
+  border-radius: 12px;
+  text-align: center;
+  font-family: 'Viga', sans-serif;
+  font-size: 26px;
+  color: #fff;
+}
+
+.card-table {
+  min-width: 100%;
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  z-index: 10;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.card-table-show {
+  display: flex;
+}
+.card-table-hidden {
+  display: none;
+}
+.rule-card {
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.75), inset 0px -4px 24px rgba(255, 255, 255, 0.15);
+  width: 361px;
+  height: 106px;
+  text-align: center;
+}
+.cards-container {
+  width: 1045px;
+  height: 588px;
+  border-radius: 27px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 4px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 15px 24px rgba(0, 0, 0, 0.65), inset 44.9321px -44.9321px 44.9321px rgba(194, 194, 194, 0.1), inset -44.9321px 44.9321px 44.9321px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(89.8643px);
+  position: relative;
+}
+.left {
+  width: 58.5px;
+  height: 89.5px;
+  background-color: black;
+  border-radius:  0px 11px 11px 0px;
+  position: absolute;
+  top: 215px;
+  left: -4px;
+  transform: translateY(-50%);
+}
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translateY(-50%);
+}
+.right {
+  width: 58.5px;
+  height: 89.5px;
+  background-color: black;
+  border-radius:  11px 0px 0px 11px;
+  position: absolute;
+  top: 215px;
+  right: -4px;
+  transform: translateY(-50%);
+}
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+}
+.big-cards {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+}
+.big-card-1 {
+  position: relative;
+}
+.rule-heading-1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Staatliches', cursive;
+  font-size: 45px;
+
+}
+.rule-text-1 {
+  position: absolute;
+  top:45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Viga', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  width: 180px;
+  text-align: center;
+}
+.big-card-2 {
+  position: relative;
+}
+
+.rule-heading-2 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Staatliches', cursive;
+  font-size: 45px;
+}
+.rule-text-2 {
+  position: absolute;
+  top:45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Viga', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  width: 180px;
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+  font-family: 'Viga', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.user-cards {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Viga', sans-serif;
+  font-size: 24px;
+  color: white;
+  letter-spacing: 4px;
+}

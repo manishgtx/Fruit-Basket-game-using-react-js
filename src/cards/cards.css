@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+.position {
+    width: 65%;
+    position: absolute;
+    bottom: 115px;
+    left: 208px;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card {
+    z-index: 2;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.center {
+    position: relative;
+}
+.view{
+    font-family: 'Viga', sans-serif;
+    font-weight: 400;
+    position: absolute;
+    right: 27px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 71px;
+    text-align: center;
+    z-index: 2;
+}
